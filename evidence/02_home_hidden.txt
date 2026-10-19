@@ -1,0 +1,15 @@
+total 56
+drwxr-x--- 8 amnasarwar522 amnasarwar522 4096 Oct 19 10:36 .
+drwxr-xr-x 3 root          root          4096 Sep 18 14:57 ..
+-rw------- 1 amnasarwar522 amnasarwar522 4145 Oct 19 03:30 .bash_history
+-rw-r--r-- 1 amnasarwar522 amnasarwar522  220 Feb 13  2026 .bash_logout
+-rw-r--r-- 1 amnasarwar522 amnasarwar522 3771 Feb 13  2026 .bashrc
+drwx------ 2 amnasarwar522 amnasarwar522 4096 Sep 18 15:41 .cache
+-rw-rw-r-- 1 amnasarwar522 amnasarwar522  188 Oct 19 10:36 .gitconfig
+-rw-r--r-- 1 amnasarwar522 amnasarwar522  807 Feb 13  2026 .profile
+drwx------ 2 amnasarwar522 amnasarwar522 4096 Oct 18 13:20 .ssh
+drwxrwxr-x 3 amnasarwar522 amnasarwar522 4096 Oct 10 05:20 Assignment01
+drwxrwxr-x 3 amnasarwar522 amnasarwar522 4096 Oct 10 03:10 Gitea
+drwxrwxr-x 5 amnasarwar522 amnasarwar522 4096 Oct 19 10:36 lab05-linux
+drwxrwxr-x 2 amnasarwar522 amnasarwar522 4096 Sep 20 10:56 mylab
+-rw-rw-r-- 1 amnasarwar522 amnasarwar522    0 Oct 10 02:51 ssh
