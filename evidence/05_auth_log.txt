@@ -32,3 +32,27 @@
 2026-10-20T10:39:11.535005+00:00 ubuntu su[10009]: pam_unix(su-l:session): session closed for user lab5user
 2026-10-20T10:39:59.882993+00:00 ubuntu sudo: amnasarwar522 : TTY=/dev/pts/2 ; PWD=/home/amnasarwar522 ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
 2026-10-20T10:40:13.845961+00:00 ubuntu sudo: amnasarwar522 : TTY=/dev/pts/2 ; PWD=/home/amnasarwar522 ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
+2026-10-20T10:40:39.681990+00:00 ubuntu sudo: amnasarwar522 : TTY=/dev/pts/2 ; PWD=/home/amnasarwar522 ; USER=root ; COMMAND=/usr/sbin/deluser --remove-home lab5user
+2026-10-20T10:40:40.000718+00:00 ubuntu userdel[10131]: delete user 'lab5user'
+2026-10-20T10:40:40.003911+00:00 ubuntu userdel[10131]: delete 'lab5user' from group 'users'
+2026-10-20T10:40:40.006862+00:00 ubuntu userdel[10131]: removed group 'lab5user' owned by 'lab5user'
+2026-10-20T10:40:40.009675+00:00 ubuntu userdel[10131]: removed shadow group 'lab5user' owned by 'lab5user'
+2026-10-20T10:40:40.011863+00:00 ubuntu userdel[10131]: delete 'lab5user' from shadow group 'users'
+2026-10-20T10:43:16.722887+00:00 ubuntu sudo: amnasarwar522 : TTY=/dev/pts/2 ; PWD=/home/amnasarwar522/lab05-linux ; USER=root ; COMMAND=/usr/bin/grep new user: name=lab5user /var/log/auth.log
+2026-10-20T10:43:51.073022+00:00 ubuntu sudo: amnasarwar522 : TTY=/dev/pts/2 ; PWD=/home/amnasarwar522/lab05-linux ; USER=root ; COMMAND=/usr/bin/grep new user: name=lab5user /var/log/auth.log
+2026-10-20T10:44:04.454192+00:00 ubuntu sudo: amnasarwar522 : TTY=/dev/pts/2 ; PWD=/home/amnasarwar522/lab05-linux ; USER=root ; COMMAND=/usr/bin/grep delete user \'lab5user\' /var/log/auth.log
+2026-10-20T10:47:10.019391+00:00 ubuntu sudo: amnasarwar522 : TTY=/dev/pts/2 ; PWD=/home/amnasarwar522/lab05-linux ; USER=root ; COMMAND=/usr/bin/grep new user: name=lab5user /var/log/auth.log
+2026-10-20T10:47:21.283192+00:00 ubuntu sudo: amnasarwar522 : TTY=/dev/pts/2 ; PWD=/home/amnasarwar522/lab05-linux ; USER=root ; COMMAND=/usr/bin/grep delete user \'lab5user\' /var/log/auth.log
+2026-10-20T11:01:26.305852+00:00 ubuntu sudo: amnasarwar522 : TTY=/dev/pts/2 ; PWD=/home/amnasarwar522 ; USER=root ; COMMAND=/usr/sbin/adduser lab5user
+2026-10-20T11:01:26.492687+00:00 ubuntu groupadd[10800]: group added to /etc/group: name=lab5user, GID=1001
+2026-10-20T11:01:26.498374+00:00 ubuntu groupadd[10800]: group added to /etc/gshadow: name=lab5user
+2026-10-20T11:01:26.501521+00:00 ubuntu groupadd[10800]: new group: name=lab5user, GID=1001
+2026-10-20T11:01:26.539749+00:00 ubuntu useradd[10805]: new user: name=lab5user, UID=1001, GID=1001, home=/home/lab5user, shell=/bin/bash, from=/dev/pts/3
+2026-10-20T11:01:37.476745+00:00 ubuntu passwd[10816]: pam_unix(passwd:chauthtok): password changed for lab5user
+2026-10-20T11:01:40.932346+00:00 ubuntu chfn[10820]: changed user 'lab5user' information
+2026-10-20T11:01:42.741120+00:00 ubuntu gpasswd[10827]: members of group users set by root to amnasarwar522,lab5user
+2026-10-20T11:01:56.175820+00:00 ubuntu su[10840]: (to lab5user) amnasarwar522 on pts/2
+2026-10-20T11:01:56.181535+00:00 ubuntu su[10840]: pam_unix(su-l:session): session opened for user lab5user(uid=1001) by amnasarwar522(uid=1000)
+2026-10-20T11:02:33.586371+00:00 ubuntu su[10840]: pam_unix(su-l:session): session closed for user lab5user
+2026-10-20T11:03:18.448597+00:00 ubuntu sudo: amnasarwar522 : TTY=/dev/pts/2 ; PWD=/home/amnasarwar522 ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
+2026-10-20T11:03:28.274368+00:00 ubuntu sudo: amnasarwar522 : TTY=/dev/pts/2 ; PWD=/home/amnasarwar522 ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
